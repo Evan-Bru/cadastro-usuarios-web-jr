@@ -47,6 +47,7 @@ Dados do usuário:
 
 1. Vá até a pasta: C:\xampp\htdocs\
 2. Crie uma pasta chamada cadastro-usuarios
+
 ⚠️ O nome da pasta deve bater com o link que você acessará no navegador.
 ---
 
@@ -55,3 +56,4 @@ Dados do usuário:
 - O projeto não utiliza banco de dados
 - Os dados são armazenados no arquivo `data/usuarios.json`
 - Estrutura simples e organizada, focada em funcionalidade
+s
