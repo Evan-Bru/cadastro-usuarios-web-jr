@@ -2,7 +2,7 @@
 
 Aplicação web simples para gerenciamento de usuários, permitindo realizar operações básicas de cadastro, listagem, edição e exclusão.
 
-Projeto desenvolvido como desafio técnico para vaga de estágio em Desenvolvimento Web.
+Projeto desenvolvido como desafio técnico para vaga junior em Desenvolvimento Web.
 
 ---
 
