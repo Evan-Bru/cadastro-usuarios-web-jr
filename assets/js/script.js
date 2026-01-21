@@ -100,3 +100,26 @@ function limparFormulario() {
     document.getElementById("id").value = "";
     document.getElementById("cancelar").style.display = "none";
 }
+
+
+// =====================
+// TOGGLE DE TEMA
+// =====================
+document.addEventListener("DOMContentLoaded", () => {
+    const themeToggle = document.getElementById("themeToggle");
+    const themeIcon = document.getElementById("themeIcon");
+
+    if (!themeToggle) return;
+
+    themeToggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark");
+
+        if (document.body.classList.contains("dark")) {
+            themeIcon.classList.remove("bi-sun-fill");
+            themeIcon.classList.add("bi-moon-fill");
+        } else {
+            themeIcon.classList.remove("bi-moon-fill");
+            themeIcon.classList.add("bi-sun-fill");
+        }
+    });
+});

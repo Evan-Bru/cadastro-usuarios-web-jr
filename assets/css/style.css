@@ -107,3 +107,51 @@ tbody tr:nth-child(even) {
     background-color: #dc3545;
     color: #fff;
 }
+
+
+.btn-info-dark {
+    background-color: #0b5ed7; /* azul mais escuro */
+    border-color: #0a58ca;
+    color: white;
+}
+
+.btn-info-dark:hover,
+.btn-info-dark:focus {
+    background-color: #084298;
+    border-color: #06357a;
+    color: white;
+}
+
+html, body {
+            transition: background-color 0.4s ease, color 0.4s ease;
+        }
+
+.card, .btn, .form-control, .navbar, header, footer {
+            transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+        }
+
+.hover-shadow:hover {
+            transform: translateY(-3px);
+            transition: transform 0.2s ease-in-out;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+
+.theme-toggle {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            z-index: 10;
+        }
+
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark .container {
+    background-color: #1e1e1e;
+}
+
+body.dark table {
+    color: #ffffff;
+}

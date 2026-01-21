@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Cadastro de Usuários</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
+    <div class="btn-container">
+        <button 
+            id="themeToggle"
+            class="btn btn-info-dark btn-sm theme-toggle hover-shadow"
+        >
+        <i class="bi bi-sun-fill" id="themeIcon"></i>
+        </button>
+    </div>
     <div class="container">
         <h1>Gerenciamento de Usuários</h1>
-
         <!-- FORMULÁRIO -->
         <form id="formUsuario">
             <input type="hidden" id="id" name="id">
