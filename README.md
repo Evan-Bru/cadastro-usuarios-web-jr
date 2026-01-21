@@ -55,5 +55,4 @@ Dados do usuário:
 
 - O projeto não utiliza banco de dados
 - Os dados são armazenados no arquivo `data/usuarios.json`
-- Estrutura simples e organizada, focada em funcionalidade
-s
+- Estrutura simples e organizada, focada em funcionalidades
